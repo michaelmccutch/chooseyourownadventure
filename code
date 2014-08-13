@@ -1,0 +1,26 @@
+// Heard through Codeacademy
+
+confirm ("Ready to go!");
+{
+console.log("Welcome to the game!");
+}
+console.log("You are at [place].'");
+console.log("Suddenly...");
+var userAnswer = prompt ("Do you want to say yes?");
+if (userAnswer === "yes")
+{
+console.log("You start [action]!");
+}
+else
+{
+console.log("Oh no! ....'");
+}
+var feedback = prompt("1-10, how would you rate this game?");
+if (feedback>8)
+{
+console.log("Thank you! We should race again!");
+}
+else
+{
+console.log("I'll keep practicing coding and racing.");
+}
